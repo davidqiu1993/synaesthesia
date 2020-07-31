@@ -278,7 +278,7 @@ def main():
     # train network
     hist = train_network(
         M, f_output, f_loss, f_dloss_dtheta, W0_val_vec, K0_val_vec, s0_val_vec, X_val_vec,
-        lr=0.001, batch_size=64, n_iter=200
+        lr=0.00035, batch_size=64, n_iter=1000
     )
 
     # visualize the learning curve

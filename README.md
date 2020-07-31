@@ -9,6 +9,16 @@ Reference:
 Shriki, Oren, Yaniv Sadeh, and Jamie Ward. "The emergence of synaesthesia in a neuronal network model via changes in perceptual sensitivity and plasticity." PLoS computational biology 12.7 (2016): e1004959.
 ```
 
+
+## Training Process
+
+Below shows the learning curve of `1000` iterations of training with learning
+rate `0.00035`, where the network is trained with `1000` random samples drawn
+from Gaussian distributions at each dimension of different modality.
+
+![Learning Curve](docs/learning_curve_labeled.png)
+
+
 ## Authorship
 
 Below is the authorship information of this project.
